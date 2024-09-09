@@ -10,7 +10,8 @@ SUCCESS = (
 )
 FAILURE = (
     "<div>Could not find the <code>remid</code> cookie. "
-    "Make sure to log in with email and password.</div>"
+    "Make sure to log in with email and password, "
+    'and check the "Remember me" box.</div>'
 )
 COOKIES_URL = "https://accounts.ea.com/connect"
 MAIN_URL = "https://www.ea.com"
